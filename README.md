@@ -32,6 +32,7 @@ The application will calculate the absolute address of the function given it's r
 
 #### Notes
 This demonstration was made to help [this issue](https://github.com/Rob--/memoryjs/issues/6) from [memoryjs](https://github.com/Rob--/memoryjs).
+By being able to generate shellcode based on an array of arguments, we can use JavaScript to execute a function.
 
 Currently strings can be written to the target process but we cannot define the size/length of the string.
 
